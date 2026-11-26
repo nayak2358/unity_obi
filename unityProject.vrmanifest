@@ -5,7 +5,7 @@
       "app_key": "application.generated.unity.dataset.exe",
       "launch_type": "url",
       "url": "steam://launch/",
-      "action_manifest_path": "C:\\Users\\maparicio\\Documents\\UnityHub project\\Dataset - copia\\Assets\\StreamingAssets\\SteamVR\\actions.json",
+      "action_manifest_path": "C:\\Users\\maparicio\\Documents\\Abhilash Nayak\\unity_obi\\Assets\\StreamingAssets\\SteamVR\\actions.json",
       "strings": {
         "en_us": {
           "name": "Dataset [Testing]"
