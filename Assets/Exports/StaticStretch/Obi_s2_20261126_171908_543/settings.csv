@@ -1,0 +1,2 @@
+simulator,substeps,compliance,iterations,dt,width,height,duration_s,support_mode,anchor_count
+Obi,2,0,1,0.01666666754,21,21,5,FullTopEdge,21

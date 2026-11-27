@@ -1,3 +1,5 @@
+// Grasping and releasing rigidbody cubes
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -73,10 +75,14 @@ public class ControllerGrab : MonoBehaviour
         if (m_CurrentInteractable.m_ActiveController)
             m_CurrentInteractable.m_ActiveController.Drop();
 
+        // To snap the cube to the controller's position
         m_CurrentInteractable.transform.position = transform.Find("Sphere").transform.position;
 
         Rigidbody targetBody = m_CurrentInteractable.GetComponent<Rigidbody>();
         m_CurrentInteractable.GetComponent<BoxCollider>().enabled = false;
+
+        // The cube is attached to a Unity fixed joint (unlike Clothilde
+        // where the cloht's particle position is prescribed)
         m_Joint.connectedBody = targetBody;
 
         m_CurrentInteractable.m_ActiveController = this;

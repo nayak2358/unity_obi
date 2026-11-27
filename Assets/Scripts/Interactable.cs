@@ -1,3 +1,5 @@
+// Keeps track of which controller holds a cube
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

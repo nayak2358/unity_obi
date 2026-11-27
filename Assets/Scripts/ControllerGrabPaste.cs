@@ -1,3 +1,5 @@
+// Grasping, releasing and joining more than one cube (similar to ControllerGrab)
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
